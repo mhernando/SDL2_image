@@ -22,7 +22,7 @@
 
 #define JPEG_INTERNALS
 #include "jinclude.h"
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 
 
 /* The legal range of a DCT coefficient is

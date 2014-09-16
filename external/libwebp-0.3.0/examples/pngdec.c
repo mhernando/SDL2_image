@@ -16,8 +16,8 @@
 #include <stdio.h>
 
 #ifdef WEBP_HAVE_PNG
-#include <png.h>
-#include <setjmp.h>   // note: this must be included *after* png.h
+#include <glenn/png/png.h>
+#include <setjmp.h>   // note: this must be included *after* glenn/png/png.h
 #include <stdlib.h>
 
 #include "webp/encode.h"

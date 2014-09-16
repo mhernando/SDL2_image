@@ -19,7 +19,7 @@
 
 #define JPEG_INTERNALS
 #include "jinclude.h"
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 
 /*
  * Initialization of a JPEG decompression object.

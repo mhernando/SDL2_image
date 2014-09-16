@@ -57,8 +57,8 @@
 #include <stdlib.h>
 #include <zlib.h>
 
-#include "png.h"        /* libpng header */
-#include "readpng.h"    /* typedefs, common macros, public prototypes */
+#include "glenn/png/png.h"        /* libpng header */
+#include "readglenn/png/png.h"    /* typedefs, common macros, public prototypes */
 
 /* future versions of libpng will provide this macro: */
 #ifndef png_jmpbuf

@@ -50,7 +50,7 @@
 #endif
 
 #include "tiffiop.h"
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #ifndef HAVE_GETOPT
 extern int getopt(int, char**, char*);

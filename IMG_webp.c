@@ -37,12 +37,12 @@
 
 =============================================================================*/
 
-#include "SDL_endian.h"
+#include "latinga/sdl2/include/SDL_endian.h"
 
 #ifdef macintosh
 #define MACOS
 #endif
-#include <webp/decode.h>
+#include <google/libwebp/webp/decode.h>
 
 static struct {
     int loaded;

@@ -3187,7 +3187,7 @@ SWIG_AsVal_size_t (PyObject * obj, size_t *val)
 }
 
 
-#include "webp/decode.h"
+#include "google/libwebp/webp/decode.h"
 #include "webp/encode.h"
 
 

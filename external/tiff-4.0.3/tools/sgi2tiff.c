@@ -30,7 +30,7 @@
 #include <gl/image.h>
 #include <ctype.h>
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #define	streq(a,b)	(strcmp(a,b) == 0)
 #define	strneq(a,b,n)	(strncmp(a,b,n) == 0)

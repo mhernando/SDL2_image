@@ -60,12 +60,12 @@
 
 =============================================================================*/
 
-#include "SDL_endian.h"
+#include "latinga/sdl2/include/SDL_endian.h"
 
 #ifdef macintosh
 #define MACOS
 #endif
-#include <png.h>
+#include <glenn/png/png.h>
 
 /* Check for the older version of libpng */
 #if (PNG_LIBPNG_VER_MAJOR == 1) 

@@ -20,7 +20,7 @@
  ************************************************************************/
 
 
-#include "tiffio.h" 
+#include "tiff/tiff/libtiff/tiffio.h" 
 
 #define HDIB HANDLE
 #define IS_WIN30_DIB(lpbi)  ((*(LPDWORD)(lpbi)) == sizeof(BITMAPINFOHEADER))

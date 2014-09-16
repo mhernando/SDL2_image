@@ -23,7 +23,7 @@
  * You may also wish to include "jerror.h".
  */
 
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 
 /*
  * <setjmp.h> is used for the optional error recovery mechanism shown in

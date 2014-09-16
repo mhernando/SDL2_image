@@ -47,7 +47,7 @@
 # include "libport.h"
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 float	defxres = 204.;		/* default x resolution (pixels/inch) */
 float	defyres = 98.;		/* default y resolution (lines/inch) */

@@ -17,7 +17,7 @@
 
 /* this is not a core library module, so it doesn't define JPEG_INTERNALS */
 #include "jinclude.h"
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 #include "jerror.h"
 
 #ifndef HAVE_STDLIB_H		/* <stdlib.h> should declare malloc(),free() */

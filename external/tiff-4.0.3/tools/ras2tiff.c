@@ -40,7 +40,7 @@
 #endif
 
 #include "rasterfile.h"
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #ifndef howmany
 #define	howmany(x, y)	(((x)+((y)-1))/(y))

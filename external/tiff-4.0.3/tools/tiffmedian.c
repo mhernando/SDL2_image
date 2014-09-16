@@ -54,7 +54,7 @@
 # include "libport.h"
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #define	MAX_CMAP_SIZE	256
 

@@ -32,7 +32,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 int
 write_strips(TIFF *tif, const tdata_t array, const tsize_t size)

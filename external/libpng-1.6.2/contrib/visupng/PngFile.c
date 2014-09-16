@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <zlib.h>
 
-#include "png.h"
+#include "glenn/png/png.h"
 #include "pngfile.h"
 #include "cexcept.h"
 

@@ -56,7 +56,7 @@
 # include "libport.h"
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #ifndef O_BINARY
 # define O_BINARY 0

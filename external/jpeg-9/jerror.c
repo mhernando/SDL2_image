@@ -21,7 +21,7 @@
 
 /* this is not a core library module, so it doesn't define JPEG_INTERNALS */
 #include "jinclude.h"
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 #include "jversion.h"
 #include "jerror.h"
 

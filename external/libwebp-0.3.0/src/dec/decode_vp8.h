@@ -12,7 +12,7 @@
 #ifndef WEBP_WEBP_DECODE_VP8_H_
 #define WEBP_WEBP_DECODE_VP8_H_
 
-#include "../webp/decode.h"
+#include "../google/libwebp/webp/decode.h"
 
 #if defined(__cplusplus) || defined(c_plusplus)
 extern "C" {

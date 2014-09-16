@@ -61,7 +61,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "readpng.h"    /* typedefs, common macros, public prototypes */
+#include "readglenn/png/png.h"    /* typedefs, common macros, public prototypes */
 
 
 ulg  width, height;

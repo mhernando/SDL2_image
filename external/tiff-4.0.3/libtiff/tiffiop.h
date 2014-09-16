@@ -57,7 +57,7 @@ extern void *lfind(const void *, const void *, size_t *, size_t,
 		   int (*)(const void *, const void *));
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #include "tif_dir.h"
 

@@ -12,7 +12,7 @@
 #ifndef __xtiffio_h
 #define __xtiffio_h
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 /* 
  *  XXX Define your private Tag names and values here 

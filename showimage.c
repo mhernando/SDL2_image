@@ -23,7 +23,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "SDL.h"
+#include "latinga/sdl2/include/SDL.h"
 #include "SDL_image.h"
 
 

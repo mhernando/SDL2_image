@@ -39,7 +39,7 @@
 # include <GL/glut.h>
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 #include "tiffiop.h"
 
 #ifndef HAVE_GETOPT

@@ -25,7 +25,7 @@
 /* Normally use <png.h> here to get the installed libpng, but this is done to
  * ensure the code picks up the local libpng implementation:
  */
-#include "../../png.h"
+#include "../../glenn/png/png.h"
 
 /* Return component 'c' of pixel 'x' from the given row. */
 static unsigned int

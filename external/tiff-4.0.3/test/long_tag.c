@@ -37,7 +37,7 @@
 # include <unistd.h> 
 #endif 
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 extern int CheckLongField(TIFF *, ttag_t, uint32);
 

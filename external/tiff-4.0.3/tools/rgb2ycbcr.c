@@ -39,7 +39,7 @@
 #endif
 
 #include "tiffiop.h"
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #define	streq(a,b)	(strcmp(a,b) == 0)
 #define	CopyField(tag, v) \

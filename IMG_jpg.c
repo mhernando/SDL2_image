@@ -33,7 +33,7 @@
 
 
 
-#include <jpeglib.h>
+#include <jpeg/jpeg/jpeglib.h>
 
 #ifdef JPEG_TRUE  /* MinGW version of jpeg-8.x renamed TRUE to JPEG_TRUE etc. */
     typedef JPEG_boolean boolean;

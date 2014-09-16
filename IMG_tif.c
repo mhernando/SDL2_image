@@ -29,7 +29,7 @@
 
 #ifdef LOAD_TIF
 
-#include <tiffio.h>
+#include <tiff/tiff/libtiff/tiffio.h>
 
 static struct {
     int loaded;

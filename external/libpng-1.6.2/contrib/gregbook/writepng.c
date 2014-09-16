@@ -57,8 +57,8 @@
 #include <stdlib.h>     /* for exit() prototype */
 #include <zlib.h>
 
-#include "png.h"        /* libpng header, includes setjmp.h */
-#include "writepng.h"   /* typedefs, common macros, public prototypes */
+#include "glenn/png/png.h"        /* libpng header, includes setjmp.h */
+#include "writeglenn/png/png.h"   /* typedefs, common macros, public prototypes */
 
 
 /* local prototype */

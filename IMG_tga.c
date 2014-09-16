@@ -27,7 +27,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "SDL_endian.h"
+#include "latinga/sdl2/include/SDL_endian.h"
 
 #include "SDL_image.h"
 

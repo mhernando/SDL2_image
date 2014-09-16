@@ -19,7 +19,7 @@
 #endif
 
 #ifdef WEBP_HAVE_PNG
-#include <png.h>
+#include <glenn/png/png.h>
 #endif
 
 #ifdef HAVE_WINCODEC_H
@@ -35,7 +35,7 @@
 #include <wincodec.h>
 #endif
 
-#include "webp/decode.h"
+#include "google/libwebp/webp/decode.h"
 #include "./example_util.h"
 #include "./stopwatch.h"
 

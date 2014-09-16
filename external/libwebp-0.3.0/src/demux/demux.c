@@ -17,7 +17,7 @@
 #include <string.h>
 
 #include "../utils/utils.h"
-#include "../webp/decode.h"     // WebPGetFeatures
+#include "../google/libwebp/webp/decode.h"     // WebPGetFeatures
 #include "../webp/demux.h"
 #include "../webp/format_constants.h"
 

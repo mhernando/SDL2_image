@@ -37,7 +37,7 @@
 # include <unistd.h> 
 #endif 
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 #include "tif_dir.h"
 #include "tifftest.h"
 

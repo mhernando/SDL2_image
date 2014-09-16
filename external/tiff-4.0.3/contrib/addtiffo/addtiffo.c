@@ -60,7 +60,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 void TIFFBuildOverviews( TIFF *, int, int *, int, const char *,
                          int (*)(double,void*), void * );

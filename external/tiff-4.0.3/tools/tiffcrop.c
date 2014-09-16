@@ -138,7 +138,7 @@ extern int getopt(int, char**, char*);
 # include "libport.h"
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #if defined(VMS)
 # define unlink delete

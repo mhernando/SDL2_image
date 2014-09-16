@@ -31,7 +31,7 @@
 #include <gl.h>
 #include <ctype.h>
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 typedef unsigned char unsigned char;
 typedef unsigned long uint32;

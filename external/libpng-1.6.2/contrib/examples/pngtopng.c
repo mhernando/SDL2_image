@@ -19,7 +19,7 @@
 /* Normally use <png.h> here to get the installed libpng, but this is done to
  * ensure the code picks up the local libpng implementation:
  */
-#include "../../png.h"
+#include "../../glenn/png/png.h"
 
 int main(int argc, const char **argv)
 {

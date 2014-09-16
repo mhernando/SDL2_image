@@ -41,7 +41,7 @@
 #define PNG_DEBUG 0
 #endif
 
-#include "png.h"
+#include "glenn/png/png.h"
 
 /* Define png_jmpbuf() in case we are using a pre-1.0.6 version of libpng */
 #ifndef png_jmpbuf

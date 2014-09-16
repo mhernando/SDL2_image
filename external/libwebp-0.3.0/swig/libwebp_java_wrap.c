@@ -862,7 +862,7 @@ jbyteArray SWIG_JavaArrayOutUint8 (JNIEnv *jenv, uint8_t *result, jsize sz) {
 }
 
 
-#include "webp/decode.h"
+#include "google/libwebp/webp/decode.h"
 #include "webp/encode.h"
 
 

@@ -29,7 +29,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #define ROUND(x)    (uint16) ((x) + 0.5)
 #define CMSIZE      256

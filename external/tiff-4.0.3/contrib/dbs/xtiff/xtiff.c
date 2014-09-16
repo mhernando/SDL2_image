@@ -57,7 +57,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <tiffio.h>
+#include <tiff/tiff/libtiff/tiffio.h>
 #include <X11/Xatom.h>
 #include <X11/Intrinsic.h>
 #include <X11/StringDefs.h>

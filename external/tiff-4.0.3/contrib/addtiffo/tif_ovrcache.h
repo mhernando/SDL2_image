@@ -35,7 +35,7 @@
 #ifndef TIF_OVRCACHE_H_INCLUDED
 #define TIF_OVRCACHE_H_INCLUDED
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #if defined(__cplusplus)
 extern "C" {

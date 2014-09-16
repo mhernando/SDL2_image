@@ -34,7 +34,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 static char* usageMsg[] = {
 "usage: tiffset [options] filename",

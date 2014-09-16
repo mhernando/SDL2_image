@@ -15,7 +15,7 @@
 
 #define JPEG_INTERNALS
 #include "jinclude.h"
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 
 
 /* Expanded entropy encoder object for arithmetic encoding. */

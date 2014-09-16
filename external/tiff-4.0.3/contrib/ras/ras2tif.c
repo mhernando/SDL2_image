@@ -46,7 +46,7 @@ static char sccsid[] = "@(#)ras2tif.c 1.2 90/03/06";
 #include <stdio.h>
 #include <sys/time.h>
 #include <pixrect/pixrect_hs.h>
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 typedef int boolean;
 #define True (1)

@@ -102,7 +102,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <setjmp.h>     /* for jmpbuf declaration in writepng.h */
+#include <setjmp.h>     /* for jmpbuf declaration in writeglenn/png/png.h */
 #include <time.h>
 
 #ifdef DOS_OS2_W32
@@ -132,7 +132,7 @@
    text that includes control characters discouraged by the PNG spec; text
    that includes an escape character (27) must be re-entered regardless */
 
-#include "writepng.h"   /* typedefs, common macros, writepng prototypes */
+#include "writeglenn/png/png.h"   /* typedefs, common macros, writepng prototypes */
 
 
 

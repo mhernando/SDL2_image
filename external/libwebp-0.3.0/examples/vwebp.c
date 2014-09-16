@@ -29,7 +29,7 @@
 #include <qcms.h>
 #endif
 
-#include "webp/decode.h"
+#include "google/libwebp/webp/decode.h"
 #include "webp/demux.h"
 
 #include "./example_util.h"

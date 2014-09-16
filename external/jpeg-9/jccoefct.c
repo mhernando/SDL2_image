@@ -13,7 +13,7 @@
 
 #define JPEG_INTERNALS
 #include "jinclude.h"
-#include "jpeglib.h"
+#include "jpeg/jpeg/jpeglib.h"
 
 
 /* We use a full-image coefficient buffer when doing Huffman optimization,

@@ -45,7 +45,7 @@ static char id[] = "$Id: tif2ras.c,v 1.3 2010-06-08 18:55:15 bfriesen Exp $";
 
 #include <stdio.h>
 #include <pixrect/pixrect_hs.h>
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 typedef int boolean;
 #define True (1)

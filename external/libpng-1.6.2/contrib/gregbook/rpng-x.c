@@ -95,7 +95,7 @@
 
 /* #define DEBUG  :  this enables the Trace() macros */
 
-#include "readpng.h"   /* typedefs, common macros, readpng prototypes */
+#include "readglenn/png/png.h"   /* typedefs, common macros, readpng prototypes */
 
 
 /* could just include png.h, but this macro is the only thing we need

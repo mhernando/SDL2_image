@@ -38,7 +38,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include <png.h>
+#include <glenn/png/png.h>
 #include <zlib.h>
 
 int main(int argc, const char **argv)
@@ -209,7 +209,7 @@ int main(int argc, const char **argv)
  * header file.  Include any standard headers and feature test macros your
  * program requires before including png.h:
  */
-#include <png.h>
+#include <glenn/png/png.h>
 
  /* The png_jmpbuf() macro, used in error handling, became available in
   * libpng version 1.0.6.  If you want to be able to run your code with older

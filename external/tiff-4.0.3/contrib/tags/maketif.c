@@ -4,7 +4,7 @@
  */
 
 #include <stdlib.h>
-#include "xtiffio.h"
+#include "xtiff/tiff/libtiff/tiffio.h"
 
 
 void SetUpTIFFDirectory(TIFF *tif);

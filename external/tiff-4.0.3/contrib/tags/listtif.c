@@ -2,7 +2,7 @@
  * listtif.c -- lists a tiff file.
  */
 
-#include "xtiffio.h"
+#include "xtiff/tiff/libtiff/tiffio.h"
 #include <stdlib.h>
 
 void main(int argc,char *argv[])

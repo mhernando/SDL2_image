@@ -37,7 +37,7 @@
 # include <unistd.h> 
 #endif 
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 #include "tiffiop.h"
 
 const uint32	width = 10;

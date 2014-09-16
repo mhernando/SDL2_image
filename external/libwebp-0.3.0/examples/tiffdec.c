@@ -16,7 +16,7 @@
 #include <stdio.h>
 
 #ifdef WEBP_HAVE_TIFF
-#include <tiffio.h>
+#include <tiff/tiff/libtiff/tiffio.h>
 
 #include "webp/encode.h"
 #include "./metadata.h"

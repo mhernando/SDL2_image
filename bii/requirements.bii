@@ -1,0 +1,6 @@
+# This file contains your block external dependencies references
+latinga/sdl2
+google/libwebp: 0
+glenn/png: 0
+tiff/tiff: 0
+jpeg/jpeg: 0

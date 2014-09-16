@@ -40,7 +40,7 @@
 # include "libport.h"
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 /*
  * Revision history

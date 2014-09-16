@@ -24,7 +24,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include <png.h>
+#include <glenn/png/png.h>
 
 static int verbose = 1;
 static png_byte no_profile[] = "no profile";

@@ -38,7 +38,7 @@
 # include <unistd.h> 
 #endif 
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 static const char filename[] = "ascii_test.tiff";
 

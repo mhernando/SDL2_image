@@ -5,7 +5,7 @@
 
 #include <iostream.h>
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 class TiffStream {
 

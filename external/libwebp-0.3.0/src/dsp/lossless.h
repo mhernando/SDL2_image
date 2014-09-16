@@ -14,7 +14,7 @@
 #define WEBP_DSP_LOSSLESS_H_
 
 #include "../webp/types.h"
-#include "../webp/decode.h"
+#include "../google/libwebp/webp/decode.h"
 
 #if defined(__cplusplus) || defined(c_plusplus)
 extern "C" {

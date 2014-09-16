@@ -29,7 +29,7 @@
  * Helper testing routines.
  */
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 int
 CheckShortField(TIFF *tif, const ttag_t field, const uint16 value)

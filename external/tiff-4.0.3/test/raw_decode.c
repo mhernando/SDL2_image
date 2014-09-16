@@ -40,9 +40,9 @@
 # include <unistd.h> 
 #endif 
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
-#include "jpeglib.h" /* Needed for JPEG_LIB_VERSION */
+#include "jpeg/jpeg/jpeglib.h" /* Needed for JPEG_LIB_VERSION */
 
 static unsigned char cluster_0[] = { 0, 0, 2, 0, 138, 139 };
 static unsigned char cluster_64[] = { 0, 0, 9, 6, 134, 119 };

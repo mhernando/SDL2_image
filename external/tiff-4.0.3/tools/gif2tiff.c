@@ -48,7 +48,7 @@
 # include "libport.h"
 #endif
 
-#include "tiffio.h"
+#include "tiff/tiff/libtiff/tiffio.h"
 
 #define	GIFGAMMA	(1.5)		/* smaller makes output img brighter */
 #define	IMAX		0xffff		/* max intensity value */

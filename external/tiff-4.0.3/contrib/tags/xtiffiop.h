@@ -14,7 +14,7 @@
 #define __xtiffiop_h
 
 #include "tiffiop.h"
-#include "xtiffio.h"
+#include "xtiff/tiff/libtiff/tiffio.h"
 
 /**********************************************************************
  *               User Configuration
